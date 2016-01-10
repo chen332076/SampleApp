@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yitutech.face.yitufaceverificationsdk.usermark.YituVideoRecorderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<SurfaceView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/yitu_video_recorder_view">
+
+        </SurfaceView>-->
+    <view
+        android:id="@+id/yitu_face_record_cameraPreviewView"
+        class="com.yitutech.camerasdk.ui.CameraRootView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+</FrameLayout>
